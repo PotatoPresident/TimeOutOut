@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "timeoutout",
+  "version": "${version}",
+
+  "name": "TimeOut Out",
+  "description": "Allows configuration of timeout values",
+  "authors": [
+    "Potatoboy9999"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "us.potatoboy.timeoutout.TimeOutOut"
+    ]
+  },
+  "mixins": [
+    "timeoutout.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  }
+}
