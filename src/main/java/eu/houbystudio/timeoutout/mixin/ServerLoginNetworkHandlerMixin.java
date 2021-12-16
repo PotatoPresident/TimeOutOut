@@ -1,5 +1,6 @@
-package us.potatoboy.timeoutout.mixin;
+package eu.houbystudio.timeoutout.mixin;
 
+import eu.houbystudio.timeoutout.TimeOutOut;
 import net.minecraft.server.network.ServerLoginNetworkHandler;
 import net.minecraft.text.Text;
 import net.minecraft.text.TranslatableText;
@@ -9,7 +10,6 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.Redirect;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
-import us.potatoboy.timeoutout.TimeOutOut;
 
 @Mixin(ServerLoginNetworkHandler.class)
 public final class ServerLoginNetworkHandlerMixin {

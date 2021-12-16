@@ -5,17 +5,18 @@
   "name": "TimeOut Out",
   "description": "Allows configuration of timeout values",
   "authors": [
-    "Potatoboy9999"
+    "Potatoboy9999",
+    "Megastary"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/houby-studio/TimeOutOut"
   },
   "license": "MIT",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "us.potatoboy.timeoutout.TimeOutOut"
+      "eu.houbystudio.timeoutout.TimeOutOut"
     ]
   },
   "mixins": [

@@ -1,4 +1,4 @@
-package us.potatoboy.timeoutout;
+package eu.houbystudio.timeoutout;
 
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.loader.api.FabricLoader;

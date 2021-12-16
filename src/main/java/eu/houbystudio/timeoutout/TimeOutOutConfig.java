@@ -1,4 +1,4 @@
-package us.potatoboy.timeoutout;
+package eu.houbystudio.timeoutout;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;

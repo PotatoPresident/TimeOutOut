@@ -1,10 +1,10 @@
-package us.potatoboy.timeoutout.mixin;
+package eu.houbystudio.timeoutout.mixin;
 
+import eu.houbystudio.timeoutout.TimeOutOut;
 import org.spongepowered.asm.mixin.Debug;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.ModifyArg;
-import us.potatoboy.timeoutout.TimeOutOut;
 
 @Debug(export = true)
 @Mixin(targets = {

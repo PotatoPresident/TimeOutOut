@@ -1,7 +1,7 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "us.potatoboy.timeoutout.mixin",
+  "package": "eu.houbystudio.timeoutout.mixin",
   "compatibilityLevel": "JAVA_16",
   "mixins": [
     "ChannelInitializerMixin",
