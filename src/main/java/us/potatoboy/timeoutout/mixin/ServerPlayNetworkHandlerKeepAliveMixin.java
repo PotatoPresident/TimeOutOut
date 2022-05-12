@@ -1,6 +1,5 @@
-package eu.houbystudio.timeoutout.mixin;
+package us.potatoboy.timeoutout.mixin;
 
-import eu.houbystudio.timeoutout.TimeOutOut;
 import net.minecraft.server.network.ServerPlayNetworkHandler;
 import net.minecraft.text.Text;
 import net.minecraft.util.Util;
@@ -10,6 +9,7 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Constant;
 import org.spongepowered.asm.mixin.injection.ModifyConstant;
 import org.spongepowered.asm.mixin.injection.Redirect;
+import us.potatoboy.timeoutout.TimeOutOut;
 
 @Mixin(ServerPlayNetworkHandler.class)
 public final class ServerPlayNetworkHandlerKeepAliveMixin {

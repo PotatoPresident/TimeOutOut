@@ -30,5 +30,5 @@ to be configured, although it is recommended that this be left at the vanilla va
 
 ## Download
 
-* You can directly download from [Releases page on Github](https://github.com/houby-studio/TimeOutOut/releases/latest)
+* You can directly download from [Releases page on Github](https://github.com/PotatoPresident/TimeOutOut/releases)
 * You can also download from [CurseForge](https://www.curseforge.com/minecraft/mc-mods/timeoutout-fabric)
