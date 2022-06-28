@@ -2,7 +2,6 @@ package us.potatoboy.timeoutout.mixin;
 
 import net.minecraft.server.network.ServerLoginNetworkHandler;
 import net.minecraft.text.Text;
-import net.minecraft.text.TranslatableText;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.asm.mixin.injection.At;
@@ -20,7 +19,7 @@ public final class ServerLoginNetworkHandlerMixin {
     private void tick(CallbackInfo info) {
         if (loginTicks >= TimeOutOut.getConfig().loginTimeoutTicks) {
             ((ServerLoginNetworkHandler) (Object) this).disconnect(
-                    new TranslatableText("multiplayer.disconnect.slow_login")
+                    Text.translatable("multiplayer.disconnect.slow_login")
             );
         }
     }
