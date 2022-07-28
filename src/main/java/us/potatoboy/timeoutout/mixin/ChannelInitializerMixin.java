@@ -6,7 +6,6 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.ModifyArg;
 import us.potatoboy.timeoutout.TimeOutOut;
 
-@Debug(export = true)
 @Mixin(targets = {
         "net/minecraft/network/ClientConnection$1",
         "net/minecraft/server/ServerNetworkIo$1"
